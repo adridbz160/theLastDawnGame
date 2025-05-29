@@ -1,0 +1,36 @@
+[0528/102501.040:ERROR:gpu_init.cc(426)] Passthrough is not supported, GL is disabled
+[0528/103252.086:WARNING:spdy_session.cc(3431)] Received HEADERS for invalid stream 9
+[0528/103252.087:WARNING:spdy_session.cc(3431)] Received HEADERS for invalid stream 11
+[0528/103252.131:WARNING:spdy_session.cc(3431)] Received HEADERS for invalid stream 21
+[0528/103305.941:WARNING:angle_platform_impl.cc(48)] HLSLCompiler.cpp:257 (compileToBinary): 
+C:\fakepath(102,1-6): warning X4000: use of potentially uninitialized variable (dyn_index_vec4_float4)
+
+[0528/103306.050:WARNING:angle_platform_impl.cc(48)] HLSLCompiler.cpp:257 (compileToBinary): 
+C:\fakepath(125,1): warning X4000: use of potentially uninitialized variable (f_mainImage)
+
+[0528/103306.141:WARNING:angle_platform_impl.cc(48)] HLSLCompiler.cpp:257 (compileToBinary): 
+C:\fakepath(135,1): warning X4000: use of potentially uninitialized variable (f_i)
+C:\fakepath(137,1): warning X4000: use of potentially uninitialized variable (f_i)
+C:\fakepath(173,1): warning X4000: use of potentially uninitialized variable (f_u)
+
+[0528/103330.404:WARNING:angle_platform_impl.cc(48)] HLSLCompiler.cpp:257 (compileToBinary): 
+C:\fakepath(165,1): warning X4000: use of potentially uninitialized variable (f_renderMipMapLevel)
+
+[0528/103526.391:WARNING:spdy_session.cc(3431)] Received HEADERS for invalid stream 365
+[0528/103547.455:WARNING:angle_platform_impl.cc(48)] HLSLCompiler.cpp:257 (compileToBinary): 
+C:\fakepath(102,1-6): warning X4000: use of potentially uninitialized variable (dyn_index_vec4_float4)
+
+[0528/103547.548:WARNING:angle_platform_impl.cc(48)] HLSLCompiler.cpp:257 (compileToBinary): 
+C:\fakepath(125,1): warning X4000: use of potentially uninitialized variable (f_mainImage)
+
+[0528/103547.616:WARNING:angle_platform_impl.cc(48)] HLSLCompiler.cpp:257 (compileToBinary): 
+C:\fakepath(135,1): warning X4000: use of potentially uninitialized variable (f_i)
+C:\fakepath(137,1): warning X4000: use of potentially uninitialized variable (f_i)
+C:\fakepath(173,1): warning X4000: use of potentially uninitialized variable (f_u)
+
+[0528/103557.013:WARNING:angle_platform_impl.cc(48)] HLSLCompiler.cpp:257 (compileToBinary): 
+C:\fakepath(165,1): warning X4000: use of potentially uninitialized variable (f_renderMipMapLevel)
+
+[0528/105804.287:WARNING:spdy_session.cc(3431)] Received HEADERS for invalid stream 13
+[0528/110239.497:WARNING:spdy_session.cc(3431)] Received HEADERS for invalid stream 1
+[0528/110548.367:WARNING:spdy_session.cc(3431)] Received HEADERS for invalid stream 485
