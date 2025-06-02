@@ -2315,3 +2315,169 @@ LogConfig: CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]] deferred - dummy 
 [2025.06.02-11.48.18:249][964]LogFileHelpers: InternalPromptForCheckoutAndSave took 218 ms (total: 3.77 sec)
 [2025.06.02-11.48.18:251][964]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
 [2025.06.02-11.48.18:251][964]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2025.06.02-11.49.13:287][444]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.06.02-11.49.13:293][444]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.06.02-11.49.13:293][444]PIE: New page: PIE session: base_MundoGeneral (2 jun. 2025 15:49:13)
+[2025.06.02-11.49.13:293][444]LogPlayLevel: Creating play world package: /Game/Levels/mundoGeneral/UEDPIE_0_base_MundoGeneral
+[2025.06.02-11.49.13:346][444]LogPlayLevel: PIE: StaticDuplicateObject took: (0.052668s)
+[2025.06.02-11.49.13:346][444]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/mundoGeneral/base_MundoGeneral.base_MundoGeneral to /Game/Levels/mundoGeneral/UEDPIE_0_base_MundoGeneral.base_MundoGeneral (0.052713s)
+[2025.06.02-11.49.13:361][444]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2025.06.02-11.49.13:362][444]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.06.02-11.49.13:362][444]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.06.02-11.49.13:364][444]LogAIModule: Creating AISystem for world base_MundoGeneral
+[2025.06.02-11.49.13:364][444]LogPlayLevel: PIE: World Init took: (0.001077s)
+[2025.06.02-11.49.13:364][444]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2025.06.02-11.49.13:364][444]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.06.02-11.49.13:365][444]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.06.02-11.49.13:365][444]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.06.02-11.49.13:365][444]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.06.02-11.49.13:365][444]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.06.02-11.49.13:365][444]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.06.02-11.49.13:365][444]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.06.02-11.49.13:365][444]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.06.02-11.49.13:365][444]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.06.02-11.49.13:365][444]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.06.02-11.49.13:365][444]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.06.02-11.49.13:367][444]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.06.02-11.49.13:415][444]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (Realtek(R) Audio)
+[2025.06.02-11.49.13:415][444]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.06.02-11.49.13:415][444]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.06.02-11.49.13:415][444]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.06.02-11.49.13:416][444]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=18
+[2025.06.02-11.49.13:416][444]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=18
+[2025.06.02-11.49.13:419][444]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=18
+[2025.06.02-11.49.13:419][444]LogInit: FAudioDevice initialized with ID 18.
+[2025.06.02-11.49.13:419][444]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=18
+[2025.06.02-11.49.13:419][444]LogAudio: Display: Audio Device (ID: 18) registered with world 'base_MundoGeneral'.
+[2025.06.02-11.49.13:419][444]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 18
+[2025.06.02-11.49.13:569][444]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.06.02-11.49.13:569][444]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.06.02-11.49.13:586][444]LogWorld: Bringing World /Game/Levels/mundoGeneral/UEDPIE_0_base_MundoGeneral.base_MundoGeneral up for play (max tick rate 60) at 2025.06.02-13.49.13
+[2025.06.02-11.49.13:587][444]LogWorld: Bringing up level for play took: 0.016618
+[2025.06.02-11.49.13:589][444]LogOnline: OSS: Created online subsystem instance for: :Context_26
+[2025.06.02-11.49.13:600][444]PIE: Server logged in
+[2025.06.02-11.49.13:603][444]PIE: Play in editor total start time 0,31 seconds.
+[2025.06.02-11.49.13:616][444]LogViewport: Scene viewport resized to 1314x890, mode Windowed.
+[2025.06.02-11.50.17:889][672]LogScript: Warning: Accessed None trying to read property CallFunc_Create_ReturnValue_1
+	BP_ThirdPersonCharacter_C /Game/Levels/mundoGeneral/UEDPIE_0_base_MundoGeneral.base_MundoGeneral:PersistentLevel.BP_ThirdPersonCharacter_C_0
+	Function /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter_C:ExecuteUbergraph_BP_ThirdPersonCharacter:0055
+[2025.06.02-11.50.17:890][672]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue_1". Node:  Remove from Parent Graph:  EventGraph Function:  Execute Ubergraph BP Third Person Character Blueprint:  BP_ThirdPersonCharacter
+[2025.06.02-11.50.28:647][871]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1384.060059
+[2025.06.02-11.50.28:916][876]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.06.02-11.50.28:916][876]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1384.275879, Update Interval: 331.040985
+[2025.06.02-11.50.35:788][  4]LogScript: Warning: Accessed None trying to read property CallFunc_Create_ReturnValue_1
+	BP_ThirdPersonCharacter_C /Game/Levels/mundoGeneral/UEDPIE_0_base_MundoGeneral.base_MundoGeneral:PersistentLevel.BP_ThirdPersonCharacter_C_0
+	Function /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter_C:ExecuteUbergraph_BP_ThirdPersonCharacter:0055
+[2025.06.02-11.50.35:788][  4]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue_1". Node:  Remove from Parent Graph:  EventGraph Function:  Execute Ubergraph BP Third Person Character Blueprint:  BP_ThirdPersonCharacter
+[2025.06.02-11.50.37:883][ 48]LogScript: Warning: Accessed None trying to read property CallFunc_Create_ReturnValue_1
+	BP_ThirdPersonCharacter_C /Game/Levels/mundoGeneral/UEDPIE_0_base_MundoGeneral.base_MundoGeneral:PersistentLevel.BP_ThirdPersonCharacter_C_0
+	Function /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter_C:ExecuteUbergraph_BP_ThirdPersonCharacter:0055
+[2025.06.02-11.50.37:883][ 48]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue_1". Node:  Remove from Parent Graph:  EventGraph Function:  Execute Ubergraph BP Third Person Character Blueprint:  BP_ThirdPersonCharacter
+[2025.06.02-11.50.40:461][102]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue_1". Node:  Remove from Parent Graph:  EventGraph Function:  Execute Ubergraph BP Third Person Character Blueprint:  BP_ThirdPersonCharacter
+[2025.06.02-11.50.43:467][177]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue_1". Node:  Remove from Parent Graph:  EventGraph Function:  Execute Ubergraph BP Third Person Character Blueprint:  BP_ThirdPersonCharacter
+[2025.06.02-11.50.45:690][224]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue_1". Node:  Remove from Parent Graph:  EventGraph Function:  Execute Ubergraph BP Third Person Character Blueprint:  BP_ThirdPersonCharacter
+[2025.06.02-11.50.47:784][265]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue_1". Node:  Remove from Parent Graph:  EventGraph Function:  Execute Ubergraph BP Third Person Character Blueprint:  BP_ThirdPersonCharacter
+[2025.06.02-11.51.00:474][496]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue_1". Node:  Remove from Parent Graph:  EventGraph Function:  Execute Ubergraph BP Third Person Character Blueprint:  BP_ThirdPersonCharacter
+[2025.06.02-11.51.02:302][554]LogUdpMessaging: Warning: FUdpMessageProcessor::UpdateReassemblers Discarding 2/3 of stale message segements from Sender=172.18.32.137:60979, Sequence=0
+[2025.06.02-11.51.21:149][984]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.06.02-11.51.21:149][984]LogWorld: BeginTearingDown for /Game/Levels/mundoGeneral/UEDPIE_0_base_MundoGeneral
+[2025.06.02-11.51.21:149][984]LogSlate: Window 'TheLastDawn_Testing Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.06.02-11.51.21:205][984]LogWorld: UWorld::CleanupWorld for base_MundoGeneral, bSessionEnded=true, bCleanupResources=true
+[2025.06.02-11.51.21:206][984]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.02-11.51.21:211][984]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.06.02-11.51.21:216][984]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.02-11.51.21:234][984]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 18
+[2025.06.02-11.51.21:234][984]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2025.06.02-11.51.21:236][984]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2025.06.02-11.51.21:250][984]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2025.06.02-11.51.21:542][985]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2025.06.02-11.52.15:336][780]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.06.02-11.52.15:367][781]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.06.02-11.52.16:037][820]LogUdpMessaging: Warning: FUdpMessageProcessor::UpdateReassemblers Discarding 1/2 of stale message segements from Sender=172.18.32.137:60979, Sequence=0
+[2025.06.02-11.52.53:757][ 77]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.06.02-11.52.58:359][335]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Levels/mundoGeneral/Decoración/fuego.fuego
+[2025.06.02-11.52.58:359][335]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.06.02-11.52.58:359][335]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.06.02-11.53.31:849][303]LogSlate: Window 'Message Log' being destroyed
+[2025.06.02-11.53.31:853][303]LogSlate: Window 'Message Log' being destroyed
+[2025.06.02-11.54.13:609][733]BlueprintLog: New page: Compile BP_ThirdPersonCharacter
+[2025.06.02-11.54.13:674][733]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2025.06.02-11.54.14:265][760]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.02-11.54.14:513][760]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2025.06.02-11.54.14:514][760]LogSavePackage: Moving '../../../../../../Users/Curs_4/Documents/Unreal Projects/TheLastDawn_Testing/Saved/BP_ThirdPersonCharacterFDEAF20C4FB49DF5C0CB60A6EB835D9B.tmp' to '../../../../../../Users/Curs_4/Documents/Unreal Projects/TheLastDawn_Testing/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2025.06.02-11.54.14:521][760]LogFileHelpers: InternalPromptForCheckoutAndSave took 255 ms (total: 4.03 sec)
+[2025.06.02-11.54.14:524][760]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
+[2025.06.02-11.54.14:525][760]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2025.06.02-11.54.17:597][823]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.06.02-11.54.17:603][823]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.06.02-11.54.17:603][823]PIE: New page: PIE session: base_MundoGeneral (2 jun. 2025 15:54:17)
+[2025.06.02-11.54.17:604][823]LogPlayLevel: Creating play world package: /Game/Levels/mundoGeneral/UEDPIE_0_base_MundoGeneral
+[2025.06.02-11.54.17:663][823]LogPlayLevel: PIE: StaticDuplicateObject took: (0.059570s)
+[2025.06.02-11.54.17:663][823]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/mundoGeneral/base_MundoGeneral.base_MundoGeneral to /Game/Levels/mundoGeneral/UEDPIE_0_base_MundoGeneral.base_MundoGeneral (0.059648s)
+[2025.06.02-11.54.17:681][823]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2025.06.02-11.54.17:686][823]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.06.02-11.54.17:686][823]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.06.02-11.54.17:687][823]LogAIModule: Creating AISystem for world base_MundoGeneral
+[2025.06.02-11.54.17:687][823]LogPlayLevel: PIE: World Init took: (0.001273s)
+[2025.06.02-11.54.17:687][823]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2025.06.02-11.54.17:687][823]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.06.02-11.54.17:687][823]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.06.02-11.54.17:687][823]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.06.02-11.54.17:687][823]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.06.02-11.54.17:687][823]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.06.02-11.54.17:687][823]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.06.02-11.54.17:687][823]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.06.02-11.54.17:687][823]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.06.02-11.54.17:688][823]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.06.02-11.54.17:688][823]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.06.02-11.54.17:688][823]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.06.02-11.54.17:691][823]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.06.02-11.54.17:738][823]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (Realtek(R) Audio)
+[2025.06.02-11.54.17:740][823]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.06.02-11.54.17:740][823]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.06.02-11.54.17:740][823]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.06.02-11.54.17:740][823]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=19
+[2025.06.02-11.54.17:740][823]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=19
+[2025.06.02-11.54.17:743][823]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=19
+[2025.06.02-11.54.17:743][823]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=19
+[2025.06.02-11.54.17:743][823]LogInit: FAudioDevice initialized with ID 19.
+[2025.06.02-11.54.17:743][823]LogAudio: Display: Audio Device (ID: 19) registered with world 'base_MundoGeneral'.
+[2025.06.02-11.54.17:743][823]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 19
+[2025.06.02-11.54.17:746][823]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.06.02-11.54.17:760][823]LogWorld: Bringing World /Game/Levels/mundoGeneral/UEDPIE_0_base_MundoGeneral.base_MundoGeneral up for play (max tick rate 60) at 2025.06.02-13.54.17
+[2025.06.02-11.54.17:760][823]LogWorld: Bringing up level for play took: 0.013577
+[2025.06.02-11.54.17:763][823]LogOnline: OSS: Created online subsystem instance for: :Context_31
+[2025.06.02-11.54.17:767][823]PIE: Server logged in
+[2025.06.02-11.54.17:768][823]PIE: Play in editor total start time 0,166 seconds.
+[2025.06.02-11.54.26:974][940]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.06.02-11.54.26:974][940]LogWorld: BeginTearingDown for /Game/Levels/mundoGeneral/UEDPIE_0_base_MundoGeneral
+[2025.06.02-11.54.26:975][940]LogWorld: UWorld::CleanupWorld for base_MundoGeneral, bSessionEnded=true, bCleanupResources=true
+[2025.06.02-11.54.26:976][940]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.02-11.54.27:063][940]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.06.02-11.54.27:067][940]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.02-11.54.27:079][940]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.06.02-11.54.27:079][940]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 19
+[2025.06.02-11.54.27:079][940]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2025.06.02-11.54.27:081][940]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2025.06.02-11.54.27:088][940]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.06.02-11.54.27:093][940]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2025.06.02-11.54.27:220][941]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2025.06.02-11.54.35:805][270]LogUdpMessaging: Warning: FUdpMessageProcessor::UpdateReassemblers Discarding 1/3 of stale message segements from Sender=172.18.32.137:60979, Sequence=0
+[2025.06.02-11.54.35:856][273]LogUdpMessaging: Warning: FUdpMessageProcessor::UpdateReassemblers Discarding 1/3 of stale message segements from Sender=172.18.32.137:60979, Sequence=0
+[2025.06.02-11.54.35:862][273]LogUdpMessaging: Warning: FUdpMessageProcessor::UpdateReassemblers Discarding 1/3 of stale message segements from Sender=172.18.32.137:60979, Sequence=0
+[2025.06.02-11.54.35:862][273]LogUdpMessaging: Warning: FUdpMessageProcessor::UpdateReassemblers Discarding 2/3 of stale message segements from Sender=172.18.32.137:60979, Sequence=0
+[2025.06.02-11.54.35:862][273]LogUdpMessaging: Warning: FUdpMessageProcessor::UpdateReassemblers Discarding 1/3 of stale message segements from Sender=172.18.32.137:60979, Sequence=0
+[2025.06.02-11.54.35:862][273]LogUdpMessaging: Warning: FUdpMessageProcessor::UpdateReassemblers Discarding 1/3 of stale message segements from Sender=172.18.32.137:60979, Sequence=0
+[2025.06.02-11.54.35:862][273]LogUdpMessaging: Warning: FUdpMessageProcessor::UpdateReassemblers Discarding 1/2 of stale message segements from Sender=172.18.32.137:60979, Sequence=0
+[2025.06.02-11.54.36:196][293]LogUdpMessaging: Warning: FUdpMessageProcessor::UpdateReassemblers Discarding 1/3 of stale message segements from Sender=172.18.32.137:60979, Sequence=0
+[2025.06.02-11.54.36:196][293]LogUdpMessaging: Warning: FUdpMessageProcessor::UpdateReassemblers Discarding 1/3 of stale message segements from Sender=172.18.32.137:60979, Sequence=0
+[2025.06.02-11.54.36:196][293]LogUdpMessaging: Warning: FUdpMessageProcessor::UpdateReassemblers Discarding 1/3 of stale message segements from Sender=172.18.32.137:60979, Sequence=0
+[2025.06.02-11.54.36:196][293]LogUdpMessaging: Warning: FUdpMessageProcessor::UpdateReassemblers Discarding 1/3 of stale message segements from Sender=172.18.32.137:60979, Sequence=0
+[2025.06.02-11.54.54:424][374]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.02-11.54.54:541][374]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2025.06.02-11.54.54:541][374]LogSavePackage: Moving '../../../../../../Users/Curs_4/Documents/Unreal Projects/TheLastDawn_Testing/Saved/BP_ThirdPersonCharacter28C2E99046248A3F9888F4A0BD57EAFA.tmp' to '../../../../../../Users/Curs_4/Documents/Unreal Projects/TheLastDawn_Testing/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2025.06.02-11.54.54:548][374]LogFileHelpers: InternalPromptForCheckoutAndSave took 123 ms (total: 4.15 sec)
+[2025.06.02-11.54.54:550][374]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
+[2025.06.02-11.54.54:550][374]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2025.06.02-11.54.55:825][451]BlueprintLog: New page: Compile BP_ThirdPersonCharacter
+[2025.06.02-11.54.55:887][451]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
