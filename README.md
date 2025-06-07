@@ -13,7 +13,10 @@ Proyecto creado con el motor gráfico de Unreal Engine para familiarizarme con l
 - Inventario de cinco slots
 - Muerte y Respawn
 - Aspecto de Personaje personalizado
+- Cinematica inicio nivel
 - Recuperación de vida con Botiquin si la vida es menor a la maxima.
+- Decoración Interior
+- Pantalla final de juego
 
 Este proyecto NO es oficial, todo el contenido usado forma parte de FAB, Youtube, entre otros...por lo que ninguno de este contenido utilizado en cuanto a modelaje 3D, sonidos y/o animaciones me pertenece.
 
